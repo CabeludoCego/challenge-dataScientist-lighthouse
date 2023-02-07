@@ -1,5 +1,8 @@
 AUTOR: LUCAS LEMOS CARVALHO BATISTA
+
 DESAFIO DE DATA SCIENTIST DA LIGHTHOUSE (INCIDIUM)
+
+-------------------
 
 Como rodar o projeto:
 
