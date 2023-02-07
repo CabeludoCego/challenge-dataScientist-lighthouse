@@ -17,9 +17,9 @@ Descrição mais completa:
 
 - Rodar o python notebook
 
-- 1. Importa bibliotecas necessárias
+1. Importa bibliotecas necessárias
  
-- 2. Treinamento
+2. Treinamento
 
 	-> 2.1. Carrega e prepara o banco de dados (treino + teste fake, remover colunas sem dados úteis, SMOTE)
 
@@ -27,9 +27,10 @@ Descrição mais completa:
 
 	-> 2.3. Treinamento do modelo
 
-- 3. "Validação": Utiliza parte do banco de Treino para realizar um teste "fake", que serve para averiguar o quão bom é o modelo.
+3. "Validação" manual: Utiliza parte do banco de Treino para realizar um teste "fake", que serve para averiguar o quão bom é o modelo.
+> O model já realiza uma validação no model.fit. Mas tive o interesse de realizar uma por fora também.
 
-- 4. Teste: Utiliza o banco de teste para submeter as 3333 amostras e determinar as classes de acordo com os dados apresentados.
+4. Teste: Utiliza o banco de teste para submeter as 3333 amostras e determinar as classes de acordo com os dados apresentados.
 
 	-> 4.1. Carrega e prepara o banco
 
